@@ -1,5 +1,5 @@
 /* jshint node: true */
-
+require('dotenv').load();
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'businessdotcom-onboarding',
